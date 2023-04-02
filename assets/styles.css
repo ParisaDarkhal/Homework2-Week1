@@ -7,8 +7,6 @@ body {
   min-height: 100vh;
   position: relative;
   margin: auto;
-  padding: auto;
-
   background-color: #c5dbec !important; /* change based on design requirments */
   font-family: "Karla", sans-serif !important; /* change based on design requirments */
 }
@@ -46,17 +44,28 @@ nav a {
   text-decoration: none;
 }
 
-.about-me {
+.about-me,
+.skills,
+.works {
   background-color: rgb(197, 188, 188);
   padding: 2%;
+  margin: 2% 0;
 }
 
 .responsive-main-box {
   background-color: rgb(215, 204, 204);
   display: flex;
   flex-direction: column;
-
   padding: 5%;
+}
+
+.responsive-main-box li {
+  padding: 1% 0;
+}
+
+.first-project-pic img {
+  width: 400px;
+  height: auto;
 }
 
 @media (min-width: 768px) {
