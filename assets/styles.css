@@ -68,6 +68,11 @@ nav a {
   height: auto;
 }
 
+.other-projects-pic img {
+  width: 180px;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   .main-container {
     max-width: 1400px;
@@ -104,5 +109,18 @@ nav a {
   .first-project-pic img {
     width: 800px;
     height: auto;
+  }
+
+  .other-projects-pic img {
+    width: 250px;
+    height: auto;
+  }
+  .small-pics-styling {
+    display: flex;
+    flex-direction: row;
+  }
+  .heading-pic-styling {
+    text-align: center;
+    padding: 1% 5%;
   }
 }
