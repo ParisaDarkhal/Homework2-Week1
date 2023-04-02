@@ -1,3 +1,13 @@
+:root {
+  --primary-color: #c5dbec;
+  --main-container-color: #ffffff;
+  --nav-color1: #82cfeb;
+  --nav-color2: #a0a3b3;
+  --section-bg: #c5bcbc;
+  --sub-Section-bg: #d7cccc;
+  --font-family: "Karla", sans-serif;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
@@ -7,12 +17,12 @@ body {
   min-height: 100vh;
   position: relative;
   margin: auto;
-  background-color: #c5dbec !important; /* change based on design requirments */
-  font-family: "Karla", sans-serif !important; /* change based on design requirments */
+  background-color: var(--primary-color);
+  font-family: var(--font-family);
 }
 
 .main-container {
-  background-color: white;
+  background-color: var(--main-container-color);
   margin: auto;
   padding: 1% 5%;
   display: flex;
@@ -22,7 +32,7 @@ body {
 }
 
 nav {
-  background-image: linear-gradient(#82cfeb, #a0a3b3);
+  background-image: linear-gradient(var(--nav-color1), var(--nav-color2));
   position: sticky;
   max-width: 100vw;
   top: 0px;
@@ -47,13 +57,13 @@ nav a {
 .about-me,
 .skills,
 .works {
-  background-color: rgb(197, 188, 188);
+  background-color: var(--section-bg);
   padding: 2%;
   margin: 2% 0;
 }
 
 .responsive-main-box {
-  background-color: rgb(215, 204, 204);
+  background-color: var(--sub-Section-bg);
   display: flex;
   flex-direction: column;
   padding: 5%;
@@ -77,8 +87,14 @@ nav a {
   list-style-type: none;
 }
 
-.contact-me a {
+.contact-me li {
+  padding-top: 3%;
 }
+
+.contact-me a:hover {
+  color: rgb(172, 37, 172);
+}
+
 @media (min-width: 768px) {
   .main-container {
     max-width: 1400px;
