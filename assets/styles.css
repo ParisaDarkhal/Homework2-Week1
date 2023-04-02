@@ -74,7 +74,7 @@ nav a {
 }
 
 .first-project-pic img {
-  max-width: 70vw;
+  max-width: 60vw;
   height: auto;
 }
 
@@ -129,7 +129,7 @@ nav a {
   }
 
   .first-project-pic img {
-    width: 800px;
+    max-width: 50vw;
     height: auto;
   }
 
