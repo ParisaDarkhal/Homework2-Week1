@@ -95,4 +95,14 @@ nav a {
   .responsive-main-box {
     flex-direction: row;
   }
+
+  .works .responsive-main-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-project-pic img {
+    width: 800px;
+    height: auto;
+  }
 }
