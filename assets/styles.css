@@ -73,6 +73,12 @@ nav a {
   height: auto;
 }
 
+.contact-me ul {
+  list-style-type: none;
+}
+
+.contact-me a {
+}
 @media (min-width: 768px) {
   .main-container {
     max-width: 1400px;
@@ -122,5 +128,10 @@ nav a {
   .heading-pic-styling {
     text-align: center;
     padding: 1% 5%;
+  }
+
+  .contact-me ul {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
