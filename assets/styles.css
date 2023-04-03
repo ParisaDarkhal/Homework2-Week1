@@ -95,6 +95,10 @@ nav a {
   color: rgb(172, 37, 172);
 }
 
+img:hover {
+  opacity: 80%;
+}
+
 @media (min-width: 768px) {
   .main-container {
     max-width: 1400px;
