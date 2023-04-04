@@ -1,3 +1,4 @@
+/* page scope  */
 :root {
   --primary-color: #c5dbec;
   --main-container-color: #ffffff;
@@ -114,6 +115,8 @@ img:hover {
   color: hsl(228, 45%, 44%);
 }
 
+/* media queries for page responsiveness */
+/* Mobile first approach, so the meida query is for larger screens */
 @media (min-width: 768px) {
   .main-container {
     max-width: 1400px;
